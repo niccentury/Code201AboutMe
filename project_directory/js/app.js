@@ -20,7 +20,7 @@ function quizQ(){
     } else{
         alert(alertWrongAnswer);
     }
-}
+
 //This is the 3rd Question
 console.log('quizQ ran fine to this point')
 var favoriteShow = prompt('Do you think I have a favorite tv show?');
@@ -45,3 +45,4 @@ if (favoriteShow.toUpperCase() == 'YES' || favoriteShow.toUpperCase() == 'Y') {
 }
 
 alert('That was fun, Have a nice day');
+}
