@@ -1,9 +1,11 @@
 'use strict';
 
 console.log('js is woroking');
+
 var alertWrongAnswer = 'Sorry that\'s incorrect';
 var alertCorrect = 'Correct!!';
 var usersName = prompt('Hello, Welcome. What\'s your name?');
+
 if (usersName){
     quizQ();
 } else {
