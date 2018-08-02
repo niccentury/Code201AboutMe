@@ -13,4 +13,6 @@ h1 {
 
 .pTrans {
     background-color: rgba(255, 0, 0, 0.45);
+    min-width: 350px;
+    display: inline-block
 }
