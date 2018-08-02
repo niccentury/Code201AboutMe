@@ -17,7 +17,7 @@ if (usersName) {
     }
 
     //This is the 3rd Question
-    console.log('Loop Check')
+    
     var favoriteShow = prompt('Do you think I have a favorite tv show?');
     if (favoriteShow.toUpperCase() === 'NO' || favoriteShow.toUpperCase() === 'N') {
         alert(alertCorrect);
@@ -58,6 +58,7 @@ while(shoeValueGuess<4){
         alert('To high');
     } else {
         alert('To low');
+        console.log('Qestion 6 Check');
     } 
     shoeValueGuess++;
 }
@@ -69,10 +70,11 @@ while(shoeValueGuess<4){
      if (myColors.includes(colorQuestion) === true) {
          alert('Got it!');
          correctAnswer++;
-         console.log('Question 7 Check');
+         
          break;
      }else {
              colorGuess++;
+             console.log('Question 7 Check');
          }
      } alert('You Got ' + correctAnswer + ' Correct');
  
