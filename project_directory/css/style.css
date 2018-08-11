@@ -2,21 +2,47 @@
 body {
     background: url("https://images.unsplash.com/photo-1503348379917-758650634df4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=df0d4e1f9fe3cdae9204b77ca248a026&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
     background-size: cover;
+
+    padding:(0,6,0,6);
 }
+
 
 h1 {
     text-align: center;
     color: white;
     font-family: sans-serif;
-    font-size: 80px
+    font-size: 80px;
 }
 #pHead{
     text-align: center;
-    font-size: 60px
+    font-size: 60px;
 }
 
 .pTrans {
     background-color: rgba(255, 0, 0, 0.45);
     min-width: 350px;
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 2%;
 }
+
+.pTransTwo {
+    background-color: rgba(255, 0, 0, 0.45);
+    min-width: 350px;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.pTransThird {
+    background-color: rgba(255, 0, 0, 0.45);
+    min-width: 350px;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+ h2{
+     color:rgb(182, 173, 173);
+ }
+
+ li{
+     color: rgb(182, 173, 173);
+ }
+
