@@ -3,9 +3,14 @@ body {
     background: url("https://images.unsplash.com/photo-1503348379917-758650634df4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=df0d4e1f9fe3cdae9204b77ca248a026&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
     background-size: cover;
 
-    padding:(0,6,0,6);
+
+    padding:0% 6% 0% 6%;
 }
 
+#mainBlock{
+    width:40%;
+    float:left;
+}
 
 h1 {
     text-align: center;
@@ -20,21 +25,21 @@ h1 {
 
 .pTrans {
     background-color: rgba(255, 0, 0, 0.45);
-    min-width: 350px;
+    width: 350px;
     display: inline-block;
     margin-bottom: 2%;
 }
 
 .pTransTwo {
     background-color: rgba(255, 0, 0, 0.45);
-    min-width: 350px;
+    width: 350px;
     display: inline-block;
     margin-bottom: 2%;
 }
 
 .pTransThird {
     background-color: rgba(255, 0, 0, 0.45);
-    min-width: 350px;
+    width: 350px;
     display: inline-block;
     margin-bottom: 2%;
 }
@@ -44,5 +49,15 @@ h1 {
 
  li{
      color: rgb(182, 173, 173);
+ }
+
+ .story{
+     width:60%;
+     margin-left:40%;
+ }
+
+ .transStory{
+     font-size: 20px;
+     color: rgb(124, 7, 7);
  }
 
